@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Er. Krish Jagdishbhai Patoliya | Computer Engineer</title>
 
-<meta name="description" content="Er. Krish Jagdishbhai Patoliya - B.Tech Computer Science Engineer Portfolio">
+<meta name="description" content="Er. Krish Jagdishbhai Patoliya Portfolio - B.Tech CSE Computer Engineer">
+
+<link rel="icon" href="favicon.png">
+
 
 <style>
 
@@ -14,80 +19,125 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:'Segoe UI',Arial,sans-serif;
+font-family:'Segoe UI',sans-serif;
 }
+
 
 body{
-background:linear-gradient(135deg,#020617,#0f172a,#1e3a8a);
+
+background:#020617;
 color:white;
-min-height:100vh;
+
 }
 
 
-/* Header */
 
 header{
+
+min-height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
 text-align:center;
-padding:60px 20px;
-background:rgba(15,23,42,0.8);
+
+background:
+linear-gradient(135deg,#020617,#1e40af);
+
+padding:20px;
+
 }
 
-header h1{
-font-size:45px;
+
+
+.profile{
+
+width:150px;
+
+height:150px;
+
+border-radius:50%;
+
+border:5px solid #38bdf8;
+
+margin-bottom:20px;
+
+background:#334155;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+font-size:18px;
+
 color:#38bdf8;
-text-shadow:0 0 20px #38bdf8;
-animation:glow 2s infinite alternate;
-}
 
-header p{
-font-size:22px;
-margin-top:15px;
-color:#e2e8f0;
 }
 
 
-@keyframes glow{
-from{
-text-shadow:0 0 10px #38bdf8;
+
+h1{
+
+font-size:45px;
+
+color:#38bdf8;
+
 }
-to{
-text-shadow:0 0 30px #38bdf8;
+
+
+
+.typing{
+
+font-size:25px;
+
+margin-top:20px;
+
+color:white;
+
 }
-}
+
 
 
 section{
+
 max-width:1000px;
+
 margin:auto;
+
 padding:40px 20px;
+
 }
+
 
 
 .card{
 
-background:rgba(30,41,59,0.8);
+background:#111827;
+
 padding:30px;
-margin:25px 0;
+
 border-radius:20px;
 
-border:1px solid #334155;
+margin:25px 0;
 
-box-shadow:
-0 10px 30px rgba(0,0,0,0.5);
+box-shadow:0 0 25px #000;
 
-transition:0.4s;
+transition:.4s;
 
 }
 
 
+
 .card:hover{
 
-transform:translateY(-10px);
+transform:translateY(-8px);
 
-border-color:#38bdf8;
-
-box-shadow:
-0 0 25px #38bdf8;
+box-shadow:0 0 30px #38bdf8;
 
 }
 
@@ -99,17 +149,6 @@ color:#38bdf8;
 
 margin-bottom:20px;
 
-font-size:30px;
-
-}
-
-
-.about{
-
-font-size:18px;
-
-line-height:1.8;
-
 }
 
 
@@ -118,36 +157,31 @@ line-height:1.8;
 
 display:inline-block;
 
-background:linear-gradient(45deg,#38bdf8,#2563eb);
+padding:10px 20px;
 
-color:white;
-
-padding:10px 18px;
-
-margin:8px;
+margin:7px;
 
 border-radius:30px;
 
+background:#38bdf8;
+
+color:#000;
+
 font-weight:bold;
 
-transition:.3s;
-
-}
-
-
-.skills span:hover{
-
-transform:scale(1.1);
-
 }
 
 
 
-.contact p{
+.project{
 
-font-size:18px;
+background:#1e293b;
 
-margin:12px 0;
+padding:20px;
+
+margin:15px 0;
+
+border-radius:15px;
 
 }
 
@@ -155,23 +189,17 @@ margin:12px 0;
 
 button{
 
-background:#38bdf8;
-
-color:black;
-
-border:none;
-
 padding:14px 30px;
 
 border-radius:30px;
 
+border:none;
+
+background:#38bdf8;
+
 font-weight:bold;
 
 cursor:pointer;
-
-font-size:16px;
-
-transition:.3s;
 
 }
 
@@ -181,8 +209,6 @@ button:hover{
 
 background:white;
 
-transform:scale(1.1);
-
 }
 
 
@@ -191,35 +217,18 @@ footer{
 
 text-align:center;
 
-padding:25px;
+padding:20px;
 
-background:#020617;
-
-color:#94a3b8;
+background:#000;
 
 }
 
 
-
-@media(max-width:600px){
-
-header h1{
-
-font-size:32px;
-
-}
-
-header p{
-
-font-size:18px;
-
-}
-
-}
 
 </style>
 
 </head>
+
 
 
 <body>
@@ -227,11 +236,46 @@ font-size:18px;
 
 <header>
 
-<h1>Er. Krish Jagdishbhai Patoliya</h1>
 
-<p>🚀 B.Tech CSE | Computer Engineer | Web Developer</p>
+<div>
+
+
+<div class="profile">
+
+Your Photo
+
+</div>
+
+
+<h1>
+Er. Krish Jagdishbhai Patoliya
+</h1>
+
+
+<div class="typing">
+
+💻 Computer Engineer | Web Developer
+
+</div>
+
+
+<br>
+
+
+<a href="resume.pdf">
+
+<button>
+📄 Download Resume
+</button>
+
+</a>
+
+
+</div>
+
 
 </header>
+
 
 
 
@@ -242,17 +286,15 @@ font-size:18px;
 
 <h2>👨‍💻 About Me</h2>
 
-<p class="about">
+<p>
 
-Hello, I am <b style="color:#38bdf8">
-Er. Krish Jagdishbhai Patoliya
-</b>.
+I am Er. Krish Jagdishbhai Patoliya,
 
-I am a Computer Science Engineer with B.Tech in CSE.
+B.Tech Computer Science Engineer.
 
-I love Software Development, Web Development and learning new technologies.
+I am passionate about software development,
 
-My goal is to build innovative and useful digital solutions.
+web technologies and creating innovative solutions.
 
 </p>
 
@@ -266,11 +308,9 @@ My goal is to build innovative and useful digital solutions.
 <h2>🎓 Education</h2>
 
 <p>
-<b>B.Tech - Computer Science & Engineering</b>
-</p>
 
-<p>
-Computer Engineer
+B.Tech - Computer Science & Engineering
+
 </p>
 
 </div>
@@ -280,7 +320,7 @@ Computer Engineer
 
 <div class="card">
 
-<h2>🔥 Technical Skills</h2>
+<h2>🔥 Skills</h2>
 
 
 <div class="skills">
@@ -291,8 +331,6 @@ Computer Engineer
 
 <span>JavaScript</span>
 
-<span>C</span>
-
 <span>C++</span>
 
 <span>Java</span>
@@ -301,6 +339,43 @@ Computer Engineer
 
 <span>Web Development</span>
 
+
+</div>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h2>🚀 Projects</h2>
+
+
+<div class="project">
+
+<h3>Portfolio Website</h3>
+
+<p>
+
+Personal professional portfolio website using HTML CSS JavaScript.
+
+</p>
+
+</div>
+
+
+
+<div class="project">
+
+<h3>Future Projects</h3>
+
+<p>
+
+More software projects will be added soon.
+
+</p>
+
 </div>
 
 
@@ -309,9 +384,26 @@ Computer Engineer
 
 
 
-<div class="card contact">
 
-<h2>📞 Contact Me</h2>
+<div class="card">
+
+<h2>🏆 Certificates</h2>
+
+<p>
+
+Certificates will be updated soon.
+
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>📞 Contact</h2>
 
 
 <p>📱 8511938888</p>
@@ -319,8 +411,6 @@ Computer Engineer
 <p>📧 krishjpatoliya@gmail.com</p>
 
 <p>📍 Ahmedabad, Gujarat</p>
-
-<p>🏠 Native Place: Morbi, Gujarat</p>
 
 
 <br>
@@ -330,7 +420,7 @@ Computer Engineer
 
 <button>
 
-🔗 LinkedIn Profile
+LinkedIn
 
 </button>
 
@@ -344,11 +434,13 @@ Computer Engineer
 
 
 
+
 <footer>
 
-© 2026 Er. Krish Jagdishbhai Patoliya | Portfolio Website
+© 2026 Er. Krish Jagdishbhai Patoliya
 
 </footer>
+
 
 
 </body>
