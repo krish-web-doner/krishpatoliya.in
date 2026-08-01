@@ -29,3 +29,99 @@ behavior:"smooth"
 });
 
 });
+function sendWhatsApp(){
+
+let name=document.getElementById("name").value;
+let phone=document.getElementById("phone").value;
+let email=document.getElementById("email").value;
+let date=document.getElementById("date").value;
+let time=document.getElementById("time").value;
+let service=document.getElementById("service").value;
+let message=document.getElementById("message").value;
+
+let text =
+`📅 *New Appointment Request*
+
+👤 Name: ${name}
+
+📞 Mobile: ${phone}
+
+📧 Email: ${email}
+
+📅 Date: ${date}
+
+⏰ Time: ${time}
+
+💼 Service: ${service}
+
+📝 Message: ${message}`;
+
+window.open(
+`https://wa.me/918511938888?text=${encodeURIComponent(text)}`,
+"_blank"
+);
+
+function sendWhatsApp(){
+
+let name=document.getElementById("name").value;
+let phone=document.getElementById("phone").value;
+let email=document.getElementById("email").value;
+let date=document.getElementById("date").value;
+let time=document.getElementById("time").value;
+let service=document.getElementById("service").value;
+let message=document.getElementById("message").value;
+
+let text =
+`📅 *New Appointment Request*
+
+👤 Name: ${name}
+
+📞 Mobile: ${phone}
+
+📧 Email: ${email}
+
+📅 Date: ${date}
+
+⏰ Time: ${time}
+
+💼 Service: ${service}
+
+📝 Message: ${message}`;
+
+window.open(
+`https://wa.me/918511938888?text=${encodeURIComponent(text)}`,
+"_blank"
+);
+
+function sendWhatsApp(){
+
+let name=document.getElementById("name").value;
+let phone=document.getElementById("phone").value;
+let email=document.getElementById("email").value;
+let date=document.getElementById("date").value;
+let time=document.getElementById("time").value;
+let service=document.getElementById("service").value;
+let message=document.getElementById("message").value;
+
+let text =
+`📅 *New Appointment Request*
+
+👤 Name: ${name}
+
+📞 Mobile: ${phone}
+
+📧 Email: ${email}
+
+📅 Date: ${date}
+
+⏰ Time: ${time}
+
+💼 Service: ${service}
+
+📝 Message: ${message}`;
+
+window.open(
+`https://wa.me/918511938888?text=${encodeURIComponent(text)}`,
+"_blank"
+);
+
