@@ -285,3 +285,15 @@ font-weight:bold;
 #appointment button:hover{
 opacity:0.9;
 }
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+}
